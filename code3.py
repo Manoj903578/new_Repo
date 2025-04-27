@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-
+#this is new API created to post any data 
 app = Flask(__name__)
 
 @app.route('/item', methods=['POST'])
