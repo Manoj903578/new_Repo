@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 #this is new API created to post any data 
+#This is a simple Flask application that defines a single endpoint to post data.
+#It uses the Flask framework to create a web server and handle HTTP requests.
 app = Flask(__name__)
 
 @app.route('/item', methods=['POST'])
