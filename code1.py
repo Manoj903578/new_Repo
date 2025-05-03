@@ -1,4 +1,4 @@
-import boto3
+# import boto3
 
 def launch_ec2_with_cloudformation(template_body, stack_name):
   client = boto3.client('cloudformation')
